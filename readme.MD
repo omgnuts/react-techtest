@@ -42,6 +42,8 @@ View the website locally on http://localhost:8080/
 
 ![alt text](notes/screenshot.png)
 
-# 5. License
+# 5. License & Credits
 
 GIC. Don't play-play.
+
+-- Team CRM.
