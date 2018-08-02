@@ -1,10 +1,10 @@
 version: 1.0
 configuration:
   has_webserver: true
-  scoring:
-    command: "npm test"
-    files:
-      - junit.xml
+  # scoring:
+  #   command: "npm test"
+  #   files:
+  #     - junit.xml
   ide_config:
     default_open_files:
       - src/App.js
