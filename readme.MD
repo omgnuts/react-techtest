@@ -14,7 +14,7 @@ It covers the basics of the following:
 
 # 2. Test questions (PDF)
 
-[React-Test-questions.pdf](react-techtest/React-Test-questions.pdf)
+[React-Test-questions.pdf](notes/React-Test-questions.pdf)
 
 # 3. How to use?
 
