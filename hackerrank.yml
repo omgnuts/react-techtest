@@ -7,8 +7,8 @@ configuration:
   #     - junit.xml
   ide_config:
     default_open_files:
-      - src/App.js
+      - src/index.js
     project_menu:
-      run: npm run
+      run: npm start
       install: npm install
       test: npm test
