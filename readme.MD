@@ -20,23 +20,10 @@ It covers the basics of the following:
 
 Brief instructions to use this.
 
-### Step 1: Git clone this repository.
-
-`
-git clone https://git/PrivateMarket/TechnicalTest-React
-`
-
-### Step 2: Run (or double-click) reset-test.bat
-
-This will create a clean copy of the test on `Desktop\GIC-React-Test` (for windows).
-It will include the pdf copy of the test questions.
-
-### Step 3: Start the program
-
 - Install node-modules: `npm install`
 - Run the app: `npm start`
 
-View the website locally on http://localhost:8080/
+Preview the app on HackerRank
 
 # 4. Screen shot of the application
 
@@ -44,6 +31,4 @@ View the website locally on http://localhost:8080/
 
 # 5. License & Credits
 
-GIC. Don't play-play.
-
--- Team CRM.
+GIC Pte Ltd. Copyright 2018. All rights reserved
