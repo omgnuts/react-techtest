@@ -10,5 +10,5 @@ configuration:
       - src/index.js
     project_menu:
       run: npm start
-      install: npm install
+      install & run (first time): npm install_run
       test: npm test
