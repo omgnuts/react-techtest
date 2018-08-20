@@ -9,6 +9,6 @@ configuration:
     default_open_files:
       - src/index.js
     project_menu:
-      run: npm start
       install: npm install
-      test: npm test
+      run: npm start
+      # test: npm test
