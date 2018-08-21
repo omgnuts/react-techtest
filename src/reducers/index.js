@@ -1,7 +1,7 @@
-import { combineReducers } from "redux";
-import { routerReducer } from "react-router-redux";
-import { reducer as formReducer } from "redux-form";
-import products from "./products";
+import { combineReducers } from 'redux';
+import { routerReducer } from 'react-router-redux';
+import { reducer as formReducer } from 'redux-form';
+import products from './products';
 
 // main reducers
 export const reducers = combineReducers({

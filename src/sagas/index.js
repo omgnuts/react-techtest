@@ -1,6 +1,6 @@
-import { takeLatest } from "redux-saga";
-import { fork } from "redux-saga/effects";
-import { productsFetchList, productsAddEdit } from "./products";
+import { takeLatest } from 'redux-saga';
+import { fork } from 'redux-saga/effects';
+import { productsFetchList, productsAddEdit } from './products';
 
 // main saga generators
 export function* sagas() {

@@ -1,5 +1,5 @@
-import React from "react";
-import { Navbar } from "react-bootstrap";
+import React from 'react';
+import { Navbar } from 'react-bootstrap';
 
 class Component extends React.Component {
   render() {

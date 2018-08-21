@@ -1,8 +1,8 @@
-import React from "react";
-import { connect } from "react-redux";
-import { push } from "react-router-redux";
-import { Table, Pagination } from "react-bootstrap";
-import ProductListElement from "./ProductListElement";
+import React from 'react';
+import { connect } from 'react-redux';
+import { push } from 'react-router-redux';
+import { Table, Pagination } from 'react-bootstrap';
+import ProductListElement from './ProductListElement';
 
 // Product list component
 export class ProductList extends React.Component {
@@ -21,7 +21,11 @@ export class ProductList extends React.Component {
     const per_page = 20;
     const pages = Math.ceil(products.length / per_page);
     const start_offset = (page - 1) * per_page;
+
     let start_count = 0;
+    const product_list = products.filter((product, index) => {
+        return (index >= start_offset && start_count++ < per_page);
+    }).map((product, index) => <ProductListElement key={index} product={product}/>)
 
     // show the list of products
     return (
@@ -36,14 +40,7 @@ export class ProductList extends React.Component {
           </tr>
           </thead>
           <tbody>
-          {products.map((product, index) => {
-            if (index >= start_offset && start_count < per_page) {
-              start_count++;
-              return (
-                <ProductListElement key={index} product={product}/>
-              );
-            }
-          })}
+          {product_list}
           </tbody>
         </Table>
 

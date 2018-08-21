@@ -13,7 +13,7 @@ export default class ApiProducts {
             product_name: 'Product ' + x,
             supplier_name: 'Supplier ' + x,
           });
-        }
+        };
         resolve(products);
       }, 500);
     });

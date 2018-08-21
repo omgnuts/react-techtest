@@ -1,6 +1,7 @@
-import React, { PropTypes } from "react";
-import { Link } from "react-router";
-import { Button, Glyphicon } from "react-bootstrap";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router';
+import { Button, Glyphicon } from 'react-bootstrap';
 
 // Product List Element component
 export default class ProductListElement extends React.Component {

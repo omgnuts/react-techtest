@@ -13,7 +13,6 @@ export default function products(state = {}, action) {
       return state.map(product =>
         Number(product.id) === Number(action.product.id) ? {...action.product} : product
       );
-      break;
 
     // initial state
     default:

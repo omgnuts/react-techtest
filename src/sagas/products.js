@@ -1,5 +1,5 @@
-import { call, put } from "redux-saga/effects";
-import ApiProducts from "../api/products";
+import { call, put } from 'redux-saga/effects';
+import ApiProducts from '../api/products';
 
 // fetch the product's list
 export function* productsFetchList(action) {
